@@ -4,13 +4,27 @@
     </head>
     <body>
         <Form>
-            <input type="radio" name="gender"/>Male
-            <input type="radio" name="gender"/>Female
+            <label>
+                <input type="radio" name="gender" value="male"/>Male
+            </label>
+            <label>
+            <br/>
+                <input type="radio" name="gender" value ="female"/>Female
+            </label>
             <br>
             Preferred City :
-            <input type="radio" name="city"/> Kolkata
-            <input type="radio" name="city"/> Mumbai
-            <input type="radio" name="city"/> Bangalore
+            <label for="kolkata">
+                Kolkata
+            </label>
+            <input type="radio" id="kolkata" name="city"/>
+            <label for="Mumbai">
+                Mumbai
+            </label>
+            <input type="radio" id="Mumbai" name="city"/> 
+            <label for="Bangalore">
+                Bangalore
+            </label>
+            <input type="radio" id = "Bangalore" name="city"/> 
             <br>
             <input type="submit" value="register"/>
         </Form>
